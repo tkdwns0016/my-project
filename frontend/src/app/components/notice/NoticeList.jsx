@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 export default function noticeList() {
     const [notices, setNotices] = useState([]);
 
-
+ 
     useEffect(() => {
         const getData = async () => {
             try {
