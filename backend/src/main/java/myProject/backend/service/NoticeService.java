@@ -18,7 +18,7 @@ public class NoticeService {
     }
 
     public List<Notice> not( ) {
-        return noticeRepository.findByTitleContaining("보안 패치 공지");
+        return noticeRepository.findAllByOrderByNoticeId();
     }
 
 }

@@ -2,12 +2,14 @@ package myProject.backend.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
 
 @Entity
 @Getter @Setter
+@NoArgsConstructor
 @Table(name = "NOTICE_POST")
 public class Notice {
 
